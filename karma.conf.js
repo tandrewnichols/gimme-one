@@ -17,7 +17,6 @@ module.exports = function(config) {
     files: [
       'node_modules/mocha-given/browser/mocha-given.js',
       'node_modules/should/should.js',
-      'dist/gimme-one.js',
       'test/helpers/**/*.js',
       'test/**/*.coffee'
     ],
@@ -31,7 +30,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'test/**/*.coffee': ['browserify']
+      'test/gimme-one.coffee': ['browserify']
     },
 
     browserify: {
