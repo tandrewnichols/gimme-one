@@ -8,12 +8,12 @@ engines:
         - javascript
 ratings:
    paths:
-    - lib/**.js
+    - "lib/**.js"
 exclude_paths:
-  - dist/**.js
-  - gulp/**.js
-  - test/**.js
-  - **.json
-  - **.md
-  - *.js
-  - **.coffee
+  - "dist/**.js"
+  - "gulp/**.js"
+  - "test/**.js"
+  - "**.json"
+  - "**.md"
+  - "*.js"
+  - "**.coffee"
