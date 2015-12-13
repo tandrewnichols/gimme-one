@@ -12,3 +12,8 @@ ratings:
 exclude_paths:
   - dist/**.js
   - gulp/**.js
+  - test/**.js
+  - **.json
+  - **.md
+  - *.js
+  - **.coffee
